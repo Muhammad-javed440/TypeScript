@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "typescript": "^5.4.0-dev.20240220"
+  },
+  "name": "05-famous-quote",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
