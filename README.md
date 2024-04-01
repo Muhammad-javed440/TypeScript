@@ -19,6 +19,10 @@ tsc --version
 ```
 tsc --init
 ```
+## Some changes required in tsconfig file
+- "target": "ES2022",
+- "module": "NodeNext",
+- "moduleResolution": "NodeNext",
 ## To create _package.json_ file manually
 ```
 npm init
