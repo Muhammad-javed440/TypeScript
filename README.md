@@ -15,11 +15,11 @@ tsc -v
 ```
 tsc --version
 ```
-## To creat __tsconfig__ file
+## To creat _tsconfig_ file
 ```
 tsc --init
 ```
-## To create __package.json__ file manually
+## To create _package.json_ file manually
 ```
 npm init
 ```
@@ -27,7 +27,7 @@ npm init
 ```
 npm init -y
 ```
-## To create __node_modules and package_lock.json__ files
+## To create _node_modules and package_lock.json_ files
 ```
 npm i @types/node -D
 ```
@@ -35,7 +35,7 @@ npm i @types/node -D
 - cd foldername    (used to go inside the folder)
 - cd ..            (used to go outside the folder)
 
-# To create togather __package.json and package_lock.json__ files
+# To create togather _package.json and package_lock.json_ files
 ```
 npm install -D typescript@next
 ```
