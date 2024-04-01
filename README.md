@@ -54,8 +54,17 @@ npm install typescript --save-dev
 ```
 ### Additionally, you can configure TypeScript-specific options in your tsconfig.json file within your project directory.
 
-
-
+## To configure your Git name and email, use the following commands
+```
+ git config --global user.name "Your Name"
+```
+```
+   git config --global user.email "youremail@example.com"
+```
+### To Confirm your configuration by executing
+```
+git config --list.
+```
 
 
 
