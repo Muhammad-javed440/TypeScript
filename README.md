@@ -67,8 +67,10 @@ git config --list.
 ```
 
 # GitBash Installation:
-- For those who haven't yet installed GitBash, it can be downloaded from [GitBash](https://git-scm.com/downloads). Please verify your Git installation by using the command git -v.
-
+- For those who haven't yet installed GitBash, it can be downloaded from [GitBash](https://git-scm.com/downloads). Please verify your Git installation by using the command
+```
+git -v.
+```
 
 
 
