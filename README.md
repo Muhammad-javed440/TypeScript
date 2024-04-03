@@ -100,7 +100,25 @@ initial commit
 > After this a win editor is opened to escaped from this editor
 ```
 Esc:wq
-``` 
+```
+## To create a Blank file in the terminal
+```
+touch about.html
+```
+```
+touch contact.html
+```
+```
+tuoch monuments.html
+```
 
+> To reverse the a file in last commit
+```
+git checkout contact.html
+```
+> To reverse all the file in last commit
+```
+git checkout -f
+```
 
 
