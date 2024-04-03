@@ -120,5 +120,21 @@ git checkout contact.html
 ```
 git checkout -f
 ```
-
+## git log tell us about our commit
+```
+git log
+```
+> To check last five commit
+```
+git log -p -5
+```
+# To exit press q
+## To diffrentiate between two files
+```
+git diff
+```
+> To compaire the last commit
+```
+git diff --staged
+```
 
