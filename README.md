@@ -71,7 +71,36 @@ git config --list
 ```
 git -v.
 ```
-
+> To initialize git
+```
+git init
+```
+> To check hidden folder on git bash
+```
+ls -lart
+```
+> To check status
+```
+git status
+```
+> To add all files
+``` git add .
+```
+> To add single file (git add fileName)
+```
+git add index.html
+```
+> To save our files
+```
+git commit
+```
+```
+initial commit
+```
+> After this a win editor is opened to escaped from this editor
+```
+Esc:wq
+``` 
 
 
 
