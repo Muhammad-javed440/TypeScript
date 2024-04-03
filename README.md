@@ -63,7 +63,7 @@ npm install typescript --save-dev
 ```
 ### To Confirm your configuration by executing
 ```
-git config --list.
+git config --list
 ```
 
 # GitBash Installation:
