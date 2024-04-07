@@ -1,10 +1,11 @@
-let namePerson:string='';
-namePerson=prompt(' please write your name')||'';
-console.log(`your name is ${namePerson}`);
-if(namePerson!==null && namePerson!==''){
-    alert(`Hello ${namePerson}, welcome to the IT CLASS !`);
+import * as readline from 'readline';
 
-}
-else{
-    alert(`Please enter your name`)
-};
+const rl =readline.createInterface({
+    input: process.stdin,
+    output:process.stdout
+});
+// Example usage
+rl.question('What is your name? ',(name: string) =>{
+    console.log('hello)!,what are you doing today?');
+    rl.close();
+});
