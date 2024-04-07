@@ -1,11 +1,13 @@
+
 "use strict";
-let namePerson = '';
-namePerson = prompt(' please write your name') || '';
-console.log(`your name is ${namePerson}`);
-if (namePerson !== null && namePerson !== '') {
-    alert(`Hello ${namePerson}, welcome to the IT CLASS !`);
-}
-else {
-    alert(`Please enter your name`);
-}
-;
+Object.defineProperty(exports, "__esModule", { value: true });
+var readline = require("readline");
+var rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
+// Example usage
+rl.question('What is your name? ', function (name) {
+    console.log("Hello, ".concat(name, "!,What are you doing Today?"));
+    rl.close();
+});
